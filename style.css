@@ -288,7 +288,7 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 2.3em;
 }
 
 .navbar {
@@ -682,7 +682,7 @@ a {
 }
 /*for the paragraphs*/
 p {
-    font-size: 1em;
+    font-size: 1.2em;
     line-height: 1.5;
 }
 
@@ -711,8 +711,9 @@ p {
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 1.6em;
     line-height: 1.4em;
+    color: #000000;
 }
 
 h3 {
@@ -1046,14 +1047,23 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    .bloc-padding {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }
+    .portfolio-thumb {
+        width: 85%;
+        margin: 0 auto 24px auto;
+    }
 }
 .p-size {
     font-size: 1em;
     line-height: 1.5;
+    font-weight: bold;
 }
