@@ -682,7 +682,7 @@ a {
 }
 /*for the paragraphs*/
 p {
-    font-size: 1.2em;
+    font-size: 1.1em;
     line-height: 1.5;
 }
 
@@ -1066,4 +1066,14 @@ h4 {
     font-size: 1em;
     line-height: 1.5;
     font-weight: bold;
+}
+q {
+    quotes: none;
+    color: #575757;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.bloc-quotes {
+    padding-right: 25px;
+    padding-left: 25px;
 }
