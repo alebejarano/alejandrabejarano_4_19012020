@@ -1062,6 +1062,20 @@ h4 {
         margin: 0 auto 24px auto;
     }
 }
+@media (min-width: 901px) {
+    .contact-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+    }
+    .contact-text {
+        margin-top: 15px;
+        margin-left: 50px;
+    }
+    .send-btn {
+        margin-left: 10px;
+    }
+}
 .p-size {
     font-size: 1em;
     line-height: 1.5;
@@ -1087,4 +1101,13 @@ q {
     clip: rect(0, 0, 0, 0);
     white-space: nowrap; /* added line */
     border: 0;
+}
+.form-group {
+    margin: 10px;
+}
+.form-control {
+    width: 96%;
+    padding: 5px;
+    margin-top: 10px;
+    max-width: 430px;
 }
