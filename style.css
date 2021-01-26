@@ -1051,6 +1051,9 @@ h4 {
         padding-left: 15px;
         padding-right: 15px;
     }
+    p {
+        font-size: 1.3em;
+    }
 }
 
 @media (max-width: 767px) {
@@ -1060,6 +1063,9 @@ h4 {
     .portfolio-thumb {
         width: 70%;
         margin: 0 auto 24px auto;
+    }
+    .d-bloc p a {
+        font-size: 1.2em;
     }
 }
 @media (min-width: 901px) {
@@ -1077,11 +1083,16 @@ q {
     color: #575757;
     font-size: 1.4em;
     font-weight: 500;
+    line-height: 1.5;
 }
 .bloc-quotes {
-    padding-right: 25px;
-    padding-left: 25px;
+    padding-right: 28px;
+    padding-left: 28px;
 }
 .send-btn {
     width: 150px;
+}
+.form-bloc {
+    padding-left: 29px;
+    padding-right: 29px;
 }
